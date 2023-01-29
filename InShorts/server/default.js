@@ -1,7 +1,7 @@
 
-import { data } from "./constants/data";
+import { data } from "./constants/data.js";
 
-import News from './model/news-schema';
+import News from './model/news-schema.js';
 
 const DefaultData = async () => {
     try {
