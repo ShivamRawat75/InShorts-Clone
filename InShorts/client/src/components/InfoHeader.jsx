@@ -19,6 +19,7 @@ const Container = styled(Box)`
     display : flex;
     align-items :center;
     height: 48px;
+    margin-bottom:30px;
 `
 
 const InfoHeader = () => {

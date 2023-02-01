@@ -1,9 +1,8 @@
 
 import mongoose from "mongoose";
 
-const user='user';
-const pass='54321';
-const Connection= async()=>{
+
+const Connection= async(user,pass)=>{
 
     const URL=`mongodb+srv://${user}:${pass}@cluster0.kfkgaye.mongodb.net/?retryWrites=true&w=majority`;
 
